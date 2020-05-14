@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/solid.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/brands.min.css');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Cairo', cursive;
+    background-color: lightgray;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#chat {
+    width: 800px;
+    height: 600px;
+    background-color: white;
+}
+
+.messages {
+    height: 560px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-y: scroll;
+}
+
+#chat_input {
+    height: 39px;
+    border-top: 1px solid black;
+    display: flex;
+}
+
+button {
+    background-color: grey;
+    height: 39px;
+    width: 80px;
+    border: none;
+}
+
+/*Mise en page du chat*/
+.date {
+    font-weight: bold;
+}
+
+.nom {
+    font-style: italic;
+}
+
+#name {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 18px;
+    width: 20%;
+    text-align: center;
+}
+
+#message {
+    width: 70%;
+    border: 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+/*Animation du bouton*/
+button:hover {
+    background-color: red;
+}
